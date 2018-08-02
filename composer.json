@@ -1,5 +1,5 @@
 {
-	"name": "progest/twig-extension-age",
+	"name": "progest/twig-extension-callfunc",
 	"description": "Twig extension to call PHP functions or static methods from templates",
 	"keywords": ["twig", "function", "method", "static", "class"],
 	"require": {
