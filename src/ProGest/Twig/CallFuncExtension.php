@@ -2,7 +2,7 @@
 
 namespace ProGest\Twig;
 
-class CallFuncExtension extends \Twig_Extension
+class CallFuncExtension extends \Twig\Extension\AbstractExtension
 {
 	public function callfunc(string $func, $params = null)
 	{
@@ -26,7 +26,7 @@ class CallFuncExtension extends \Twig_Extension
 	public function getFunctions()
 	{
 		return array(
-			new \Twig_Function('callfunc', [$this, 'callfunc']),
+			new \Twig\TwigFunction('callfunc', [$this, 'callfunc']),
 		);
 	}
 
